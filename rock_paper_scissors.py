@@ -9,13 +9,15 @@
 
 import random
 
-# KEY for values
-# "r": ("🪨")
-# "p": ("📝")
-# "s": ("✂️")
+# declare constants
+ROCK = "r"
+PAPER = "p"
+SCISSORS = "s"
 
-emojis = {"r": "🪨", "p": "📝", "s": "✂️"}
-choices = ["r", "p", "s"]
+# implement D R Y
+emojis = {"ROCK": "🪨", "PAPER": "📝", "SCISSORS": "✂️"}
+# print(emojis.keys())                  # dict_keys(['r', 'p', 's'])
+choices = tuple(emojis.keys())     # ('r', 'p', 's')
 
 print("welcome to rock paper scissors game :) \n")
 
@@ -37,9 +39,9 @@ def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
         print("whoops TIE!")
     elif (          # double (()) allows multi lines
-        (user_choice == "r" and computer_choice == "s") or
-        (user_choice == "p" and computer_choice == "r") or
-        (user_choice == "s" and computer_choice == "p")):
+        (user_choice == "ROCK" and computer_choice == "SCISSORS") or
+        (user_choice == "PAPER" and computer_choice == "ROCK") or
+        (user_choice == "SCISSORS" and computer_choice == "PAPER")):
         print("You win!")
     else:
         print("You lost!")
