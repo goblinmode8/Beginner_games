@@ -1,1 +1,65 @@
-This project was created as a hands-on Python practice exercise to strengthen understanding of fundamental programming concepts through building a small, functional application.
+🐍 Beginner Python Games
+
+Welcome to my collection of tiny Python projects, questionable decisions, and increasingly functional programs. 😂
+
+This repository is where I'm practicing Python by building small projects from scratch and gradually making them more complicated.
+
+The goal isn't to create the world's greatest games.
+
+The goal is to write code, break code, stare at error messages, fix code, and occasionally yell "YAY IT WORKED!" 🎉
+
+And so far... it's working. 😎
+
+
+
+🎮 THE GAMES
+🎲 Dice Roller
+
+"Roll the dice?"
+A simple dice-rolling game where the player can repeatedly roll two dice until they decide they're done.
+
+
+🔢 Number Guessing Game
+
+Can you guess the number?
+The computer secretly chooses a number between 1 and 100, and the player has to figure it out.
+
+🪨 📄 ✂️ Rock Paper Scissors
+
+The timeless battle of rocks, paper, and scissors.
+The player chooses their weapon, the computer randomly chooses theirs, and Python decides who wins.
+Because apparently we're letting a computer settle arguments now.
+
+
+🧠 Random Trivia Game
+
+Think you know everything? Prove it.
+A command-line trivia game containing a collection of questions and answers. The game randomly selects 
+questions and keeps track of the player's score.
+The player can even choose how many questions they want to answer.
+
+
+
+📱 Bonus Project: QR Code Generator
+
+Okay, technically this one isn't a game...
+But it was too fun not to include. 😎
+This command-line Python program takes text or a URL from the user and generates a QR code image.
+
+
+
+
+
+🎯 Why I'm Building This
+
+I'm using these projects to strengthen my Python fundamentals through hands-on practice.
+
+Rather than trying to memorize every Python feature at once, I'm focusing on:
+
+Learn → Build → Break → Debug → Understand → Repeat
+
+Every project adds another concept to the toolbox.
+
+And if something breaks?
+
+That's just another feature I haven't learned yet. 😉
