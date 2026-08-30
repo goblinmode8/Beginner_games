@@ -19,30 +19,52 @@ choices = ["r", "p", "s"]
 
 print("welcome to rock paper scissors game :) \n")
 
-while True:
-    user_choice = input("rock, paper, scissors? (r/p/s): ".lower())
-    # if user_choice != "r" or user_choice != "p" or user_choice != "s":
-    if user_choice not in choices:
-        print("You guessed wrong :( plz enter valid choice (r/p/s): ")
-        continue        # this says yo jump back
+def get_user_choice():
+    while True:
+        user_choice = input("rock, paper, scissors? (r/p/s): ").lower()
+        # if user_choice != "r" or user_choice != "p" or user_choice != "s":
+        if user_choice in choices:
+            return user_choice          # instead of breaking out of loop
+        else:
+            print("You guessed wrong :( plz enter valid choice: ")
 
-    computer_choices = random.choice(choices)
-
+def display_choice(user_choice, computer_choice):
     # printing choices as emojis
     print(f"user choice is {emojis[user_choice]}")
-    print(f"computer choice is {emojis[computer_choices]}")
+    print(f"computer choice is {emojis[computer_choice]}")
 
-    if user_choice == computer_choices:
+def determine_winner(user_choice, computer_choice):
+    if user_choice == computer_choice:
         print("whoops TIE!")
     elif (          # double (()) allows multi lines
-        (user_choice == "r" and computer_choices == "s") or
-        (user_choice == "p" and computer_choices == "r") or
-        (user_choice == "s" and computer_choices == "p")):
+        (user_choice == "r" and computer_choice == "s") or
+        (user_choice == "p" and computer_choice == "r") or
+        (user_choice == "s" and computer_choice == "p")):
         print("You win!")
     else:
         print("You lost!")
 
-    should_continue = input("Do you want to play again? (y/n): ").lower()
-    if should_continue == "n":
-        print("\nThank you for playing!")
-        break
+
+def play_game():
+    user_choice = get_user_choice()     # calls function
+
+    computer_choice = random.choice(choices)
+
+    display_choice(user_choice, computer_choice)        # pass arguments
+
+    determine_winner(user_choice, computer_choice)
+
+def main():
+    while True:
+        play_game()
+
+        should_continue = input("Do you want to play again? (y/n): ").lower()
+
+        if should_continue == "n":
+            print("\nThank you for playing!")
+            break
+
+main()
+# refactoring = changing structure of code without changing its functionality
+# modularization = breaking down a large program into smaller reusable parts called modules or functions
+    # messy room into organized boxes
