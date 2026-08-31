@@ -41,7 +41,9 @@ The player can even choose how many questions they want to answer.
 
 -------------------------------------------------------------------------------------------------------------------------------
 
-📱 Bonus Project: QR Code Generator
+🎉 BONUS BROJECTS
+
+📱 QR Code Generator
 
 Okay, technically this one isn't a game...
 But it was too fun not to include. 😎
@@ -55,6 +57,12 @@ The user gets to decide how long the password should be and whether it should in
 special characters. Python then builds a character pool, randomly selects characters, makes sure the requested character 
 types are represented, and shuffles everything into a new password.
 
+
+📝 To-Do List Manager
+
+A simple command-line To-Do List Manager built with Python! 🐍✨
+This project lets users create and manage tasks while using JSON file storage to keep their data saved between program runs. 
+Unlike my earlier beginner projects where the data disappeared when the program closed, this app can actually remember your tasks! 🎉
 
 
 -------------------------------------------------------------------------------------------------------------------------------
