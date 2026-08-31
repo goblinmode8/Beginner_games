@@ -1,4 +1,4 @@
-🐍 Beginner Python Games
+🐍 Welcome to Felicity's Beginner Python Games
 
 Welcome to my collection of tiny Python projects, questionable decisions, and increasingly functional programs. 😂
 
@@ -10,6 +10,7 @@ The goal is to write code, break code, stare at error messages, fix code, and oc
 
 And so far... it's working. 😎
 
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 🎮 THE GAMES
@@ -56,7 +57,7 @@ types are represented, and shuffles everything into a new password.
 
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------
 
 🎯 Why I'm Building This
 
