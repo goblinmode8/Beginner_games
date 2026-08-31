@@ -38,13 +38,21 @@ A command-line trivia game containing a collection of questions and answers. The
 questions and keeps track of the player's score.
 The player can even choose how many questions they want to answer.
 
-
+-------------------------------------------------------------------------------------------------------------------------------
 
 📱 Bonus Project: QR Code Generator
 
 Okay, technically this one isn't a game...
 But it was too fun not to include. 😎
 This command-line Python program takes text or a URL from the user and generates a QR code image.
+
+
+🔐 Random Password Generator
+
+This project is a command-line password generator that creates randomized passwords based on the user's preferences.
+The user gets to decide how long the password should be and whether it should include uppercase letters, numbers, and 
+special characters. Python then builds a character pool, randomly selects characters, makes sure the requested character 
+types are represented, and shuffles everything into a new password.
 
 
 
