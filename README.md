@@ -25,6 +25,7 @@ A simple dice-rolling game where the player can repeatedly roll two dice until t
 Can you guess the number?
 The computer secretly chooses a number between 1 and 100, and the player has to figure it out.
 
+
 🪨 📄 ✂️ Rock Paper Scissors
 
 The timeless battle of rocks, paper, and scissors.
@@ -38,6 +39,14 @@ Think you know everything? Prove it.
 A command-line trivia game containing a collection of questions and answers. The game randomly selects 
 questions and keeps track of the player's score.
 The player can even choose how many questions they want to answer.
+
+
+🌲 Choose Your Own Adventure
+
+Welcome to the mysterious forest... 🌲👀
+This is a text-based Choose Your Own Adventure game where every decision changes what happens next. 
+Players enter a strange forest, encounter swamp monsters, trolls, boats, bridges, and suspicious situations, 
+and must decide what to do along the way.
 
 -------------------------------------------------------------------------------------------------------------------------------
 
