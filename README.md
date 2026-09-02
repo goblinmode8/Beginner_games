@@ -48,6 +48,14 @@ This is a text-based Choose Your Own Adventure game where every decision changes
 Players enter a strange forest, encounter swamp monsters, trolls, boats, bridges, and suspicious situations, 
 and must decide what to do along the way.
 
+
+🐷 Pig Dice Game
+
+Welcome to Pig — a dice game where every roll is a gamble! 🎲🐷
+In this multiplayer game, players take turns rolling a six-sided die and trying to reach 50 points first.
+Every roll from 2–6 adds to your score for the current turn. But if you roll a 1, you lose ALL points from 
+that turn and your turn immediately ends.
+
 -------------------------------------------------------------------------------------------------------------------------------
 
 🎉 BONUS BROJECTS
