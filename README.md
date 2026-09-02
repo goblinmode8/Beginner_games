@@ -56,6 +56,14 @@ In this multiplayer game, players take turns rolling a six-sided die and trying 
 Every roll from 2–6 adds to your score for the current turn. But if you roll a 1, you lose ALL points from 
 that turn and your turn immediately ends.
 
+
+🧮 Math Speed Challenge
+
+Think you can solve math problems under pressure?
+This terminal-based game randomly generates math problems and challenges you to answer them as quickly as possible. 
+The catch? You don't get to move on until you get the answer correct. 👀
+
+
 -------------------------------------------------------------------------------------------------------------------------------
 
 🎉 BONUS BROJECTS
