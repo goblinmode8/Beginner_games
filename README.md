@@ -51,7 +51,6 @@ and must decide what to do along the way.
 
 🐷 Pig Dice Game
 
-Welcome to Pig — a dice game where every roll is a gamble! 🎲🐷
 In this multiplayer game, players take turns rolling a six-sided die and trying to reach 50 points first.
 Every roll from 2–6 adds to your score for the current turn. But if you roll a 1, you lose ALL points from 
 that turn and your turn immediately ends.
@@ -62,6 +61,14 @@ that turn and your turn immediately ends.
 Think you can solve math problems under pressure?
 This terminal-based game randomly generates math problems and challenges you to answer them as quickly as possible. 
 The catch? You don't get to move on until you get the answer correct. 👀
+
+
+🐲🎰 Dragon Slot Machine
+
+The goal? Deposit some totally fake money, choose how many lines to bet on, spin the machine, and see if the dragon 
+brings you some luck! 🍀
+⚠️ Just a programming project! This game uses fictional in-game currency and is not intended to promote or simulate 
+real-money gambling.
 
 
 -------------------------------------------------------------------------------------------------------------------------------
